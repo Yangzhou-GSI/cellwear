@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050507" />
+  <meta name="description" content="Explore Cellwear's curated microscopy gallery: healthy tissue, cancer cells, fluorescence, histology, and electron microscopy with clear scientific context and image rights." />
+  <link rel="canonical" href="https://cellwear.vercel.app/microscopy-gallery/" />
+  <title>Microscopy Gallery | Cellwear — See the Unseen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/microscopy-gallery/gallery.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"The Cellular Field — Cellwear Microscopy Gallery","url":"https://cellwear.vercel.app/microscopy-gallery/","description":"A curated educational gallery of healthy cells, tissue, and cancer microscopy with source and rights records."}</script>
+</head>
+<body class="gallery-page">
+  <div class="gallery-progress" data-gallery-progress aria-hidden="true"></div>
+  <header class="gallery-header">
+    <a class="brand" href="/" aria-label="Cellwear home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>CELLWEAR</span></a>
+    <nav aria-label="Gallery navigation"><a href="#comparisons">Compare tissue</a><a href="#field">Explore the field</a><a href="/education/pathology-and-diagnosis/">Pathology</a><a href="/submit-microscopy/">Submit work</a></nav>
+    <a class="gallery-home" href="/">Return home ↗</a>
+  </header>
+
+  <main>
+    <section class="gallery-opening" aria-labelledby="gallery-title">
+      <div class="gallery-intro">
+        <div class="gallery-file"><span>VISUAL ARCHIVE / 001</span><span>12 MICROSCOPIC FIELDS</span></div>
+        <p class="eyebrow">The cellular field</p>
+        <h1 id="gallery-title">Cancer is not one image.</h1>
+        <p class="gallery-deck">Look across living structures, stained tissue, cultured cancer cells, and three-dimensional reconstructions. Color can come from stains, fluorescent labels, or image processing—it is not a diagnosis by itself.</p>
+        <div class="gallery-index" aria-label="Gallery contents"><span><b>12</b> image records</span><span><b>05</b> visual methods</span><span><b>03</b> matched comparisons</span></div>
+        <a class="button button-primary" href="#comparisons">Start with healthy vs. cancer</a>
+      </div>
+      <figure class="gallery-hero-image">
+        <img src="/images/gallery/metastatic-melanoma-fluorescence.webp" alt="Fluorescence image of metastatic melanoma cells with blue nuclei and multicolored actin structures" width="1280" height="1280" />
+        <figcaption><span>METASTATIC MELANOMA CELLS</span><strong>Actin-rich structures appear in yellow; nuclei in blue.</strong><a href="/image-credits/#metastatic-melanoma">NCI · PUBLIC DOMAIN ↗</a></figcaption>
+      </figure>
+    </section>
+
+    <section class="comparison-section" id="comparisons" aria-labelledby="comparison-title">
+      <div class="comparison-intro"><p class="eyebrow">Paired field studies</p><h2 id="comparison-title">Same tissue type. Different architecture.</h2><p>These pairs place normal tissue beside cancer from the same general organ. They are separate specimens from different sources—not before-and-after images from one person—and their scale and preparation may differ.</p></div>
+
+      <article class="tissue-pair" id="connective-tissue-comparison">
+        <div class="pair-heading"><span>PAIR 01 / CONNECTIVE TISSUE</span><h3>The cleanest controlled comparison in the archive.</h3><p>Both fields show cultured human connective-tissue cells photographed by Dr. Cecil Fox in November 1987 using darkfield amplified contrast at 500×. The normal cells and cancer cells are not documented as coming from the same donor or specimen.</p></div>
+        <div class="pair-images">
+          <figure><div><img src="/images/gallery/normal-connective-tissue-cells.webp" alt="Normal human connective-tissue cells in culture using darkfield amplified contrast" loading="lazy" width="1600" height="1067" /><span class="state-label state-healthy">REFERENCE / NORMAL</span></div><figcaption><strong>Normal connective-tissue cells</strong><small>Darkfield amplified contrast, 500× · Dr. Cecil Fox / NCI</small><a href="/image-credits/#normal-connective-cells">Rights and context ↗</a></figcaption></figure>
+          <figure><div><img src="/images/nci/cancer-cells-darkfield.webp" alt="Cancer cells from human connective tissue in culture using darkfield amplified contrast" loading="lazy" width="1800" height="1173" /><span class="state-label state-cancer">FIELD / CANCER</span></div><figcaption><strong>Cancer cells from connective tissue</strong><small>Darkfield amplified contrast, 500× · Dr. Cecil Fox / NCI</small><a href="/image-credits/#darkfield-cells">Rights and context ↗</a></figcaption></figure>
+        </div>
+      </article>
+
+      <article class="tissue-pair" id="breast-comparison">
+        <div class="pair-heading"><span>PAIR 02 / BREAST</span><h3>Organized structures beside disrupted growth.</h3><p>H&E staining commonly produces pink and purple tones. In normal breast tissue, cells form organized ducts and acini. The cancer image shows cells growing beyond their usual duct boundaries into surrounding tissue.</p></div>
+        <div class="pair-images">
+          <figure><div><img src="/images/gallery/normal-breast-histology.webp" alt="H and E stained normal breast tissue showing organized ducts, lobules, and an acinus" loading="lazy" width="1280" height="1085" /><span class="state-label state-healthy">REFERENCE / HEALTHY</span></div><figcaption><strong>Normal breast histology</strong><small>H&amp;E · Mikael Häggström, M.D. · CC BY 4.0</small><a href="/image-credits/#normal-breast">Rights and context ↗</a></figcaption></figure>
+          <figure><div><img src="/images/gallery/breast-cancer-histology.webp" alt="H and E stained breast cancer cells growing into surrounding tissue" loading="lazy" width="1280" height="853" /><span class="state-label state-cancer">FIELD / CANCER</span></div><figcaption><strong>Breast cancer histology</strong><small>H&amp;E, 200× · Dr. Cecil Fox / NCI · Public domain</small><a href="/image-credits/#breast-cancer-histology">Rights and context ↗</a></figcaption></figure>
+        </div>
+      </article>
+
+      <article class="tissue-pair" id="colorectal-comparison">
+        <div class="pair-heading"><span>PAIR 03 / COLORECTAL</span><h3>Orderly mucosa beside irregular glands.</h3><p>Normal colorectal mucosa forms repeated glandular structures with abundant mucus-producing goblet cells. In colorectal adenocarcinoma, gland shapes and the arrangement of cells can become irregular and crowded.</p></div>
+        <div class="pair-images">
+          <figure><div><img src="/images/gallery/normal-colorectal-mucosa.webp" alt="H and E stained normal colorectal mucosa at high magnification" loading="lazy" width="960" height="1440" /><span class="state-label state-healthy">REFERENCE / HEALTHY</span></div><figcaption><strong>Normal colorectal mucosa</strong><small>H&amp;E biopsy · Librepath · CC BY-SA 3.0</small><a href="/image-credits/#normal-colorectal">Rights and context ↗</a></figcaption></figure>
+          <figure><div><img src="/images/gallery/colorectal-adenocarcinoma-histology.webp" alt="H and E stained colorectal adenocarcinoma at high magnification" loading="lazy" width="1280" height="853" /><span class="state-label state-cancer">FIELD / CANCER</span></div><figcaption><strong>Colorectal adenocarcinoma</strong><small>H&amp;E · Nephron · CC BY-SA 3.0</small><a href="/image-credits/#colorectal-histology">Rights and context ↗</a></figcaption></figure>
+        </div>
+      </article>
+
+      <p class="comparison-caution"><strong>Look for patterns, not a self-diagnosis.</strong> Pathologists interpret complete specimens together with clinical and laboratory information. These comparisons are educational and cannot show whether any individual has cancer.</p>
+    </section>
+
+    <section class="gallery-archive" id="field" aria-labelledby="field-title">
+      <div class="archive-heading"><div><p class="eyebrow">Enter the full field</p><h2 id="field-title">Twelve views of the unseen.</h2></div><p>Select an image to enlarge it and reveal the method, scientific context, creator, and rights record.</p></div>
+      <div class="gallery-filters" aria-label="Filter gallery images">
+        <button type="button" data-gallery-filter="all" aria-pressed="true">All fields <span>12</span></button>
+        <button type="button" data-gallery-filter="healthy" aria-pressed="false">Healthy <span>03</span></button>
+        <button type="button" data-gallery-filter="cancer" aria-pressed="false">Cancer <span>09</span></button>
+        <button type="button" data-gallery-filter="fluorescence" aria-pressed="false">Fluorescence <span>04</span></button>
+        <button type="button" data-gallery-filter="histology" aria-pressed="false">H&amp;E <span>04</span></button>
+        <button type="button" data-gallery-filter="electron" aria-pressed="false">Electron <span>02</span></button>
+      </div>
+
+      <div class="microscopy-grid" data-gallery-grid>
+        <button class="gallery-card card-wide" type="button" data-gallery-card data-category="cancer fluorescence" data-image="/images/gallery/hela-cells-multiphoton.webp" data-alt="Multiphoton fluorescence image of HeLa cells with red actin, cyan microtubules, and blue nuclei" data-title="HeLa cells: an internal scaffold" data-method="Multiphoton fluorescence microscopy" data-description="A cultured human cancer cell line. Fluorescent labels reveal actin in red, microtubules in cyan, and nuclei in blue. This is a cell-culture view, not intact tissue." data-credit="National Institutes of Health · Public domain" data-source="/image-credits/#hela-cells"><span class="card-image"><img src="/images/gallery/hela-cells-multiphoton.webp" alt="Multiphoton fluorescence image of HeLa cells with red actin, cyan microtubules, and blue nuclei" loading="lazy" width="1280" height="960" /></span><span class="card-copy"><small>01 / FLUORESCENCE</small><strong>HeLa cells: an internal scaffold</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card card-tall" type="button" data-gallery-card data-category="cancer fluorescence" data-image="/images/gallery/metastatic-melanoma-fluorescence.webp" data-alt="Fluorescence image of metastatic melanoma cells with blue nuclei and multicolored actin structures" data-title="Movement written in actin" data-method="Multicolor fluorescence image" data-description="Metastatic melanoma cells with nuclei in blue, actin in red, an actin regulator in green, and actin-rich podosomes in yellow. The image connects cell structure with the biology of movement." data-credit="Julio C. Valencia / NCI · Public domain" data-source="/image-credits/#metastatic-melanoma"><span class="card-image"><img src="/images/gallery/metastatic-melanoma-fluorescence.webp" alt="Fluorescence image of metastatic melanoma cells with blue nuclei and multicolored actin structures" loading="lazy" width="1280" height="1280" /></span><span class="card-copy"><small>02 / MELANOMA</small><strong>Movement written in actin</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card card-tall" type="button" data-gallery-card data-category="cancer electron" data-image="/images/gallery/melanoma-cell-3d-sem.webp" data-alt="Three-dimensional structure of a melanoma cell reconstructed with ion-abrasion scanning electron microscopy" data-title="A melanoma cell in three dimensions" data-method="Ion-abrasion scanning electron microscopy" data-description="A three-dimensional reconstruction of a melanoma cell. Electron microscopy reveals fine structure at scales far below what conventional light microscopy can resolve." data-credit="Sriram Subramaniam / NCI · Public domain" data-source="/image-credits/#melanoma-3d"><span class="card-image"><img src="/images/gallery/melanoma-cell-3d-sem.webp" alt="Three-dimensional structure of a melanoma cell reconstructed with ion-abrasion scanning electron microscopy" loading="lazy" width="960" height="1317" /></span><span class="card-copy"><small>03 / 3D ELECTRON</small><strong>A melanoma cell in three dimensions</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card card-wide" type="button" data-gallery-card data-category="cancer fluorescence" data-image="/images/gallery/invasive-breast-cancer-3d.webp" data-alt="Three-dimensional fluorescence reconstruction of invasive breast cancer cells grown in a tissue-like matrix" data-title="An invasive breast tumor model" data-method="3D fluorescence reconstruction, 58 z-stacks" data-description="Breast cancer cells grown in a matrix that mimics breast tissue. Blue marks nuclei, green marks F-actin, and white-pink marks vimentin. It is a laboratory model, not a whole tumor from a patient." data-credit="Sshah74 / Wayne State University · CC BY 4.0" data-source="/image-credits/#breast-cancer-3d"><span class="card-image"><img src="/images/gallery/invasive-breast-cancer-3d.webp" alt="Three-dimensional fluorescence reconstruction of invasive breast cancer cells grown in a tissue-like matrix" loading="lazy" width="1280" height="1065" /></span><span class="card-copy"><small>04 / 3D FLUORESCENCE</small><strong>An invasive breast tumor model</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card" type="button" data-gallery-card data-category="cancer electron" data-image="/images/nci/breast-cancer-cell-sem.webp" data-alt="Scanning electron micrograph of a breast cancer cell" data-title="The surface of a breast cancer cell" data-method="Scanning electron microscopy" data-description="A breast cancer cell seen with a scanning electron microscope. The image reveals surface form at high magnification but cannot identify or diagnose cancer on its own." data-credit="National Cancer Institute · Public domain" data-source="/image-credits/#breast-cell"><span class="card-image"><img src="/images/nci/breast-cancer-cell-sem.webp" alt="Scanning electron micrograph of a breast cancer cell" loading="lazy" width="1757" height="1800" /></span><span class="card-copy"><small>05 / ELECTRON</small><strong>The surface of a breast cancer cell</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card card-wide" type="button" data-gallery-card data-category="healthy contrast" data-image="/images/gallery/normal-connective-tissue-cells.webp" data-alt="Normal human connective-tissue cells in culture using darkfield amplified contrast" data-title="Normal cells in a dark field" data-method="Darkfield amplified contrast, 500×" data-description="Normal human connective-tissue cells in culture. This is the closest methodological match to the cancer-cell darkfield image: same photographer, month, magnification, and imaging method." data-credit="Dr. Cecil Fox / NCI · Public domain" data-source="/image-credits/#normal-connective-cells"><span class="card-image"><img src="/images/gallery/normal-connective-tissue-cells.webp" alt="Normal human connective-tissue cells in culture using darkfield amplified contrast" loading="lazy" width="1600" height="1067" /></span><span class="card-copy"><small>06 / NORMAL DARKFIELD</small><strong>Normal cells in a dark field</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card card-wide" type="button" data-gallery-card data-category="cancer contrast" data-image="/images/nci/cancer-cells-darkfield.webp" data-alt="Cancer cells in culture illuminated using darkfield amplified contrast" data-title="Cancer cells in a dark field" data-method="Darkfield amplified contrast, 500×" data-description="Cancer cells cultured from human connective tissue. Darkfield illumination turns scattered light into a bright cellular field against a dark background." data-credit="Dr. Cecil Fox / NCI · Public domain" data-source="/image-credits/#darkfield-cells"><span class="card-image"><img src="/images/nci/cancer-cells-darkfield.webp" alt="Cancer cells in culture illuminated using darkfield amplified contrast" loading="lazy" width="1800" height="1173" /></span><span class="card-copy"><small>07 / CANCER DARKFIELD</small><strong>Cancer cells in a dark field</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card" type="button" data-gallery-card data-category="cancer fluorescence" data-image="/images/nci/colorectal-cancer-cells.webp" data-alt="Fluorescent microscopy image of human colorectal cancer cells" data-title="A colorectal cancer cell field" data-method="Fluorescence microscopy" data-description="Human colorectal cancer cells used in treatment research. Blue marks nuclei while red and green markers reveal different cellular activity." data-credit="Yves Pommier and Rozenn Josse / NCI · Public domain" data-source="/image-credits/#colorectal-cells"><span class="card-image"><img src="/images/nci/colorectal-cancer-cells.webp" alt="Fluorescent microscopy image of human colorectal cancer cells" loading="lazy" width="1800" height="1800" /></span><span class="card-copy"><small>08 / FLUORESCENCE</small><strong>A colorectal cancer cell field</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card card-wide" type="button" data-gallery-card data-category="healthy histology" data-image="/images/gallery/normal-breast-histology.webp" data-alt="H and E stained normal breast tissue showing organized ducts, lobules, and an acinus" data-title="Normal breast architecture" data-method="H&amp;E histology" data-description="A reference view of normal breast tissue showing organized ducts, lobules, and an acinus. Labels identify structures that can disappear or change when tissue architecture is disrupted." data-credit="Mikael Häggström, M.D. · CC BY 4.0" data-source="/image-credits/#normal-breast"><span class="card-image"><img src="/images/gallery/normal-breast-histology.webp" alt="H and E stained normal breast tissue showing organized ducts, lobules, and an acinus" loading="lazy" width="1280" height="1085" /></span><span class="card-copy"><small>09 / HEALTHY REFERENCE</small><strong>Normal breast architecture</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card" type="button" data-gallery-card data-category="cancer histology" data-image="/images/gallery/breast-cancer-histology.webp" data-alt="H and E stained breast cancer cells growing into surrounding tissue" data-title="Breast cancer beyond the duct" data-method="H&amp;E histology, 200×" data-description="Breast cancer cells growing out of the ducts and into surrounding tissue. H&amp;E staining makes tissue structure and cell nuclei easier to examine." data-credit="Dr. Cecil Fox / NCI · Public domain" data-source="/image-credits/#breast-cancer-histology"><span class="card-image"><img src="/images/gallery/breast-cancer-histology.webp" alt="H and E stained breast cancer cells growing into surrounding tissue" loading="lazy" width="1280" height="853" /></span><span class="card-copy"><small>10 / BREAST HISTOLOGY</small><strong>Breast cancer beyond the duct</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card card-tall" type="button" data-gallery-card data-category="healthy histology" data-image="/images/gallery/normal-colorectal-mucosa.webp" data-alt="H and E stained normal colorectal mucosa at high magnification" data-title="The repeated order of normal colon" data-method="H&amp;E histology, biopsy" data-description="Normal colorectal mucosa at high magnification. Repeated glandular structures and mucus-producing goblet cells create an organized visual rhythm." data-credit="Librepath · CC BY-SA 3.0" data-source="/image-credits/#normal-colorectal"><span class="card-image"><img src="/images/gallery/normal-colorectal-mucosa.webp" alt="H and E stained normal colorectal mucosa at high magnification" loading="lazy" width="960" height="1440" /></span><span class="card-copy"><small>11 / HEALTHY REFERENCE</small><strong>The repeated order of normal colon</strong><i>Open field ↗</i></span></button>
+
+        <button class="gallery-card card-wide" type="button" data-gallery-card data-category="cancer histology" data-image="/images/gallery/colorectal-adenocarcinoma-histology.webp" data-alt="H and E stained colorectal adenocarcinoma at high magnification" data-title="Irregular glands in colorectal cancer" data-method="H&amp;E histology" data-description="A high-magnification view of colorectal adenocarcinoma. Glands and cells form crowded, irregular patterns compared with normal colorectal mucosa." data-credit="Nephron · CC BY-SA 3.0" data-source="/image-credits/#colorectal-histology"><span class="card-image"><img src="/images/gallery/colorectal-adenocarcinoma-histology.webp" alt="H and E stained colorectal adenocarcinoma at high magnification" loading="lazy" width="1280" height="853" /></span><span class="card-copy"><small>12 / COLORECTAL HISTOLOGY</small><strong>Irregular glands in colorectal cancer</strong><i>Open field ↗</i></span></button>
+      </div>
+      <p class="gallery-empty" data-gallery-empty hidden>No images match this filter.</p>
+    </section>
+
+    <section class="gallery-reading" aria-labelledby="read-title"><div><p class="eyebrow">What the eye can miss</p><h2 id="read-title">Color is added. Context is essential.</h2></div><div class="reading-notes"><article><span>STAIN</span><h3>H&amp;E makes tissue readable.</h3><p>Hematoxylin commonly colors nuclei blue-purple, while eosin colors many surrounding structures pink. The result is prepared contrast, not the natural color of living tissue.</p></article><article><span>LABEL</span><h3>Fluorescence tracks selected structures.</h3><p>Fluorescent markers can highlight nuclei, proteins, or the cell’s internal scaffold. Colors represent chosen signals and may vary between experiments.</p></article><article><span>FORM</span><h3>Electron microscopy reveals surfaces.</h3><p>Electron microscopes resolve structures far smaller than light microscopes. Color may be added later to help separate forms or create visual clarity.</p></article></div><a class="source-link light" href="/education/pathology-and-diagnosis/">Learn how pathologists build a diagnosis <span>→</span></a></section>
+
+    <section class="gallery-open-call"><div><p class="eyebrow">Expand the field</p><h2>Do you make microscopic work worth seeing?</h2><p>Cellwear is accepting original cell, tissue, cancer-biology, pathology, and related microscopy for possible journal, education, campaign, or apparel collaboration.</p></div><a class="button button-primary" href="/submit-microscopy/">Submit microscopic work</a></section>
+  </main>
+
+  <dialog class="gallery-dialog" data-gallery-dialog aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" data-dialog-close aria-label="Close enlarged image">×</button>
+    <div class="dialog-image"><img data-dialog-image alt="" /></div>
+    <div class="dialog-copy"><span data-dialog-method></span><h2 id="dialog-title" data-dialog-title></h2><p data-dialog-description></p><small data-dialog-credit></small><a class="source-link light" data-dialog-source href="/image-credits/">View the complete rights record <i>↗</i></a></div>
+  </dialog>
+
+  <footer class="gallery-footer"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>CELLWEAR</span></a><p>See the Unseen. Understand what matters.</p><div><a href="/education/">Education archive</a><a href="/image-credits/">Image rights</a><a href="/submit-microscopy/">Open call</a></div><p class="gallery-fine">© 2026 Cellwear · Educational imagery only. No image can diagnose cancer by itself.</p></footer>
+  <script src="/microscopy-gallery/gallery.js" defer></script>
+</body>
+</html>
