@@ -112,6 +112,86 @@
       "license": "Creative Commons Attribution-ShareAlike 3.0 Unported",
       "license_page": "https://creativecommons.org/licenses/by-sa/3.0/",
       "changes": "Converted to WebP, metadata stripped, resized for web delivery; adapted file remains CC BY-SA 3.0"
+    },
+    {
+      "file": "/images/gallery/killer-t-cells.webp",
+      "title": "Killer T Cells Surround a Cancer Cell",
+      "creator": "Alex Ritter, Jennifer Lippincott-Schwartz and Gillian Griffiths",
+      "source": "National Institutes of Health",
+      "source_page": "https://www.flickr.com/photos/nihgov/20673870162",
+      "license": "Public domain — U.S. National Institutes of Health work",
+      "license_page": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/gallery/gold-nanoparticles.webp",
+      "title": "Gold Nanoparticles in Cell Cytosol",
+      "creator": "Veronika Sapozhnikova, Konstantin Sokolov and Rebecca Richards-Kortum",
+      "source": "National Institutes of Health",
+      "source_page": "https://www.flickr.com/photos/nihgov/40140931602",
+      "license": "Public domain — U.S. National Institutes of Health work",
+      "license_page": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/gallery/prostate-nanocarriers.webp",
+      "title": "Prostate Cancer Cells Treated with Nanosized Drug Carriers",
+      "creator": "Khuloud T. Al-Jamal and Antonio Garcia",
+      "source": "Wellcome Collection",
+      "source_page": "https://wellcomecollection.org/works/xpkv6msc/images?id=eyc29hxy",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_page": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/gallery/microrna-scaffold.webp",
+      "title": "Artificial microRNA Scaffold",
+      "creator": "João Condé, Nuria Oliva and Natalie Artzi",
+      "source": "Wellcome Collection",
+      "source_page": "https://wellcomecollection.org/works/fkabkafp",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_page": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/gallery/a549-lung-cancer-cells.webp",
+      "title": "A549 Cell Line",
+      "creator": "Pinyapat Prisananuntakul",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A549_cell_line.jpg",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_page": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/gallery/pancreatic-adenocarcinoma.webp",
+      "title": "Histopathology of Pancreatic Ductal Adenocarcinoma",
+      "creator": "Pankaj K. Singh and coauthors",
+      "source": "PLOS ONE via Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pancreatic_ductal_adenocarcinoma.jpg",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_page": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/gallery/pancreatic-neoplasm-cytology.webp",
+      "title": "Cytopathology of Solid Pseudopapillary Neoplasm",
+      "creator": "Mikael Häggström, M.D.",
+      "source": "Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cytopathology_of_solid_pseudopapillary_neoplasm.png",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "license_page": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/gallery/palladin-hela-fluorescence.webp",
+      "title": "Expression of Human Wild-Type and P239S Mutant Palladin",
+      "creator": "Slater E, Amrillaeva V, Fendrich V, Bartsch D, Earl J, Vitone LJ, Neoptolemos JP and Greenhalf W",
+      "source": "PLOS Medicine via Wikimedia Commons",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Expression_of_Human_Wild-Type_and_P239S_Mutant_Palladin.png",
+      "license": "Creative Commons Attribution 1.0 Generic",
+      "license_page": "https://creativecommons.org/licenses/by/1.0/",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
     }
   ]
 }
