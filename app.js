@@ -58,7 +58,7 @@ document.querySelector("[data-signup-form]").addEventListener("submit", event =>
   event.preventDefault();
   const email = new FormData(event.currentTarget).get("email");
   localStorage.setItem("cellwear-launch-email", email);
-  document.querySelector("[data-form-message]").textContent = "You're on the list. New cancer explainers will help keep the unseen in view.";
+  document.querySelector("[data-form-message]").textContent = "Interest saved on this device. Connect an email provider before launch to create a real mailing list.";
   event.currentTarget.reset();
 });
 

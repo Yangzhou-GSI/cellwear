@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cellwear-see-the-unseen.nicholasramsby.chatgpt.site/sitemap.xml
+Sitemap: https://cellwear.vercel.app/sitemap.xml
