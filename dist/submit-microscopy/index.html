@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050507" />
+  <meta name="description" content="Submit original cell, tissue, or cancer-related microscopy for possible editorial or apparel-feature consideration by Cellwear." />
+  <link rel="canonical" href="https://cellwear.vercel.app/submit-microscopy/" />
+  <title>Submit Microscopy | Cellwear Open Call</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/submit-microscopy/submissions.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Cellwear Microscopy Open Call","url":"https://cellwear.vercel.app/submit-microscopy/","description":"Submission pathway for original microscopy connected to cells, cancer biology, or pathology."}</script>
+</head>
+<body class="submission-page">
+  <div class="submission-progress" data-blog-progress aria-hidden="true"></div>
+  <header class="submission-header">
+    <a class="brand" href="/" aria-label="Cellwear home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>CELLWEAR</span></a>
+    <nav aria-label="Submission page navigation"><a href="/education/">Education</a><a href="/blog/">Journal</a><a href="/image-credits/">Image standard</a></nav>
+    <a class="submission-home" href="/">Return home ↗</a>
+  </header>
+
+  <main>
+    <section class="submission-workspace" aria-labelledby="submission-title">
+      <div class="submission-story">
+        <div class="submission-file"><span>OPEN CALL / 001</span><span>MICROSCOPY → MEANING</span></div>
+        <p class="eyebrow">Contribute to the unseen archive</p>
+        <h1 id="submission-title">Your image could become a conversation.</h1>
+        <p class="submission-deck">Cellwear is looking for original microscopic work that reveals the visual world of cells, tissue, cancer biology, pathology, or related research. Selected work may be considered for a journal feature, educational story, campaign, or future apparel collaboration.</p>
+        <figure class="submission-image">
+          <img src="/images/nci/colorectal-cancer-cells.webp" alt="Fluorescent microscopy image of human colorectal cancer cells" width="1800" height="1800" />
+          <figcaption><span>REFERENCE / NCI PUBLIC DOMAIN</span><a href="/image-credits/#colorectal-cells">Image rights and context →</a></figcaption>
+        </figure>
+        <div class="selection-principles" aria-label="What Cellwear looks for">
+          <article><span>01</span><h2>Visual impact</h2><p>An image that invites someone to stop and look closer.</p></article>
+          <article><span>02</span><h2>Scientific context</h2><p>A clear explanation of the cells, tissue, method, and meaning.</p></article>
+          <article><span>03</span><h2>Usable rights</h2><p>Ownership or permission that can be verified before publication.</p></article>
+        </div>
+      </div>
+
+      <div class="submission-form-panel" id="submit-work">
+        <div class="form-heading"><span>SUBMISSION RECORD</span><h2>Prepare your microscopy file.</h2><p>This form creates a structured draft in Cellwear’s public GitHub repository. Your selected image stays on your device until you attach it to that draft.</p></div>
+        <form class="microscopy-form" data-microscopy-form>
+          <fieldset>
+            <legend>01 / Creator</legend>
+            <div class="field-row">
+              <label><span>Name or creator credit *</span><input name="creator" autocomplete="name" maxlength="120" required /></label>
+              <label><span>Institution or laboratory</span><input name="institution" maxlength="160" placeholder="Optional" /></label>
+            </div>
+            <label><span>Public portfolio, ORCID, or contact link</span><input name="portfolio" type="url" inputmode="url" placeholder="https://" maxlength="240" /><small>Optional. Do not put a private email address in a public submission.</small></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>02 / Microscopic work</legend>
+            <label><span>Work title *</span><input name="title" maxlength="120" required /></label>
+            <div class="field-row">
+              <label><span>Scientific connection *</span><select name="connection" required><option value="">Choose one</option><option>Cancer cells or tumor biology</option><option>Tissue or pathology</option><option>Cell biology</option><option>Immune cells</option><option>Genetics or molecular biology</option><option>Other related microscopy</option></select></label>
+              <label><span>Imaging method *</span><input name="method" maxlength="120" placeholder="Example: fluorescence microscopy" required /></label>
+            </div>
+            <div class="field-row">
+              <label><span>Sample or subject *</span><input name="subject" maxlength="160" placeholder="What are we seeing?" required /></label>
+              <label><span>Magnification or scale</span><input name="scale" maxlength="80" placeholder="If known" /></label>
+            </div>
+            <label><span>Scientific and visual story *</span><textarea name="story" rows="7" minlength="80" maxlength="1200" placeholder="Explain what the image shows, how it was made, and what a non-specialist should understand from it." required></textarea><small><b data-story-count>0</b> / 1,200 characters</small></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>03 / Image preview</legend>
+            <label class="upload-field" data-upload-field>
+              <input name="image" type="file" accept="image/jpeg,image/png,image/webp,.tif,.tiff" required data-image-input />
+              <span class="upload-copy"><b>Select your microscopy image *</b><small>JPG, PNG, WebP, or TIFF. The preview remains on this device.</small></span>
+              <span class="upload-action">Choose file</span>
+            </label>
+            <div class="preview-stage" data-preview-stage hidden><img data-image-preview alt="Local preview of the selected microscopy submission" /><div><span>LOCAL PREVIEW</span><strong data-file-name></strong><small>Attach the original file after the GitHub draft opens.</small></div></div>
+            <p class="upload-error" data-upload-error role="alert"></p>
+          </fieldset>
+
+          <fieldset>
+            <legend>04 / Rights and privacy</legend>
+            <label><span>Rights status *</span><select name="rights" required><option value="">Choose one</option><option>I created and own this work</option><option>I am authorized to submit it</option><option>It is public domain</option></select></label>
+            <label><span>Requested credit line *</span><input name="credit" maxlength="220" placeholder="Creator / institution / year" required /></label>
+            <div class="consent-list">
+              <label><input type="checkbox" name="rights_confirmed" required /><span>I confirm that the rights information above is accurate and that I can document permission if asked.</span></label>
+              <label><input type="checkbox" name="privacy_confirmed" required /><span>I confirm that the image and description contain no patient name, record number, face, or other identifying information.</span></label>
+              <label><input type="checkbox" name="review_confirmed" required /><span>I understand that submission does not guarantee publication, payment, merchandise use, or selection.</span></label>
+            </div>
+          </fieldset>
+
+          <div class="submission-action">
+            <button class="button button-primary" type="submit">Open submission draft <span aria-hidden="true">↗</span></button>
+            <p>GitHub account required. Nothing is submitted until you review the public draft, attach the image, and select “Submit new issue.”</p>
+          </div>
+          <div class="submission-status" data-submission-status role="status" aria-live="polite" hidden><strong>Your draft is ready.</strong><p>A new tab should be open. Attach the original microscopy file before submitting the issue.</p><a data-draft-link target="_blank" rel="noreferrer">Open the draft again ↗</a></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="submission-standards" aria-labelledby="standards-title">
+      <div><p class="eyebrow">The review lens</p><h2 id="standards-title">Microscopy first. Meaning attached.</h2><p>Cellwear’s concept is strongest when an image works visually from across the room and becomes more meaningful when someone learns what it reveals.</p></div>
+      <div class="standards-grid">
+        <article><span>CONTEXT</span><h3>Tell us what is visible.</h3><p>Name the cells, tissue, biological process, or cancer connection as precisely as possible.</p></article>
+        <article><span>METHOD</span><h3>Explain how it was seen.</h3><p>Include the microscopy method, stain, labels, scale, and processing when known.</p></article>
+        <article><span>INTEGRITY</span><h3>Separate observation from interpretation.</h3><p>Describe what the image can teach without presenting it as a personal diagnosis.</p></article>
+        <article><span>COLLABORATION</span><h3>Agree before commercial use.</h3><p>A journal feature does not automatically grant apparel rights. Any merchandise collaboration would require a separate written agreement.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="submission-footer"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>CELLWEAR</span></a><p>See the Unseen. Understand what matters.</p><div><a href="/education/">Education archive</a><a href="/image-credits/">Image standard</a></div><p class="submission-fine">© 2026 Cellwear · Submission does not guarantee selection. Any commercial use requires a separate agreement.</p></footer>
+  <script src="/blog/blog.js" defer></script>
+  <script src="/submit-microscopy/submissions.js" defer></script>
+</body>
+</html>
