@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cellwear Journal</title>
+    <link>https://www.cellwear.net/blog/</link>
+    <description>Source-led field notes about cancer biology, microscopy, pathology, diagnosis, biomarkers, and treatment.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://www.cellwear.net/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Do Cancer Cells Look Like Under a Microscope?</title>
+      <link>https://www.cellwear.net/blog/what-cancer-looks-like/</link>
+      <guid isPermaLink="true">https://www.cellwear.net/blog/what-cancer-looks-like/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>How microscopes, stains, cell patterns, and tissue architecture help pathologists study cancer.</description>
+    </item>
+    <item>
+      <title>Cancer Is Not One Disease</title>
+      <link>https://www.cellwear.net/blog/cancer-is-not-one-disease/</link>
+      <guid isPermaLink="true">https://www.cellwear.net/blog/cancer-is-not-one-disease/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Why cancer is a family of diseases and why origin, cell type, subtype, stage, and biomarkers matter.</description>
+    </item>
+    <item>
+      <title>Cancer Grade vs. Stage vs. Biomarkers</title>
+      <link>https://www.cellwear.net/blog/grade-stage-biomarkers/</link>
+      <guid isPermaLink="true">https://www.cellwear.net/blog/grade-stage-biomarkers/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>The difference between cancer grade, cancer stage, and tumor biomarkers.</description>
+    </item>
+    <item>
+      <title>How Cancer Treatment Is Chosen</title>
+      <link>https://www.cellwear.net/blog/how-treatment-is-chosen/</link>
+      <guid isPermaLink="true">https://www.cellwear.net/blog/how-treatment-is-chosen/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>How cancer type, stage, biomarkers, health, and goals help shape an individual treatment plan.</description>
+    </item>
+  </channel>
+</rss>

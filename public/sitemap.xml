@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.cellwear.net/</loc></url>
-  <url><loc>https://www.cellwear.net/education/</loc></url>
-  <url><loc>https://www.cellwear.net/education/types-of-cancer/</loc></url>
-  <url><loc>https://www.cellwear.net/education/genetics-and-biomarkers/</loc></url>
-  <url><loc>https://www.cellwear.net/education/pathology-and-diagnosis/</loc></url>
-  <url><loc>https://www.cellwear.net/education/treatment/</loc></url>
-  <url><loc>https://www.cellwear.net/education/screening-and-symptoms/</loc></url>
-  <url><loc>https://www.cellwear.net/education/cancer-myths/</loc></url>
-  <url><loc>https://www.cellwear.net/submit-microscopy/</loc></url>
-  <url><loc>https://www.cellwear.net/microscopy-gallery/</loc></url>
-  <url><loc>https://www.cellwear.net/blog/</loc></url>
-  <url><loc>https://www.cellwear.net/blog/what-cancer-looks-like/</loc></url>
-  <url><loc>https://www.cellwear.net/blog/cancer-is-not-one-disease/</loc></url>
-  <url><loc>https://www.cellwear.net/blog/grade-stage-biomarkers/</loc></url>
-  <url><loc>https://www.cellwear.net/blog/how-treatment-is-chosen/</loc></url>
-  <url><loc>https://www.cellwear.net/image-credits/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://www.cellwear.net/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/nci/breast-cancer-cell-sem.webp</image:loc></image:image><image:image><image:loc>https://www.cellwear.net/images/cellwear-black-tee.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/education/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/gallery/hela-cells-multiphoton.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/education/types-of-cancer/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/gallery/melanoma-cell-3d-sem.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/education/genetics-and-biomarkers/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/gallery/microrna-scaffold.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/education/pathology-and-diagnosis/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/gallery/breast-cancer-histology.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/education/treatment/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/gallery/killer-t-cells.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/education/screening-and-symptoms/</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://www.cellwear.net/education/cancer-myths/</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://www.cellwear.net/submit-microscopy/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/nci/colorectal-cancer-cells.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/microscopy-gallery/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/gallery/metastatic-melanoma-fluorescence.webp</image:loc></image:image><image:image><image:loc>https://www.cellwear.net/images/gallery/normal-breast-histology.webp</image:loc></image:image><image:image><image:loc>https://www.cellwear.net/images/gallery/breast-cancer-histology.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/blog/</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://www.cellwear.net/blog/what-cancer-looks-like/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/nci/breast-cancer-cell-sem.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/blog/cancer-is-not-one-disease/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/nci/cancer-cells-darkfield.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/blog/grade-stage-biomarkers/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/nci/colorectal-cancer-cells.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/blog/how-treatment-is-chosen/</loc><lastmod>2026-09-02</lastmod><image:image><image:loc>https://www.cellwear.net/images/nci/colorectal-cancer-cells.webp</image:loc></image:image></url>
+  <url><loc>https://www.cellwear.net/image-credits/</loc><lastmod>2026-09-02</lastmod></url>
 </urlset>
