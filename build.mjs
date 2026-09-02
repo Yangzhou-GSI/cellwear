@@ -42,7 +42,7 @@ const enhanceJsonLd = (html, seo) =>
           node.dateModified = SEO_UPDATED;
           node.inLanguage = "en-US";
           node.image = image?.startsWith("/") ? `${SITE_URL}${image}` : image;
-          node.author = { "@type": "Organization", name: "Cellwear Education", url: `${SITE_URL}/education/` };
+          node.author = { "@type": "Organization", name: "Cellwear Education", url: `${SITE_URL}/editorial-standards/` };
           node.publisher = { "@type": "Organization", name: "Cellwear", url: `${SITE_URL}/` };
           node.mainEntityOfPage = { "@type": "WebPage", "@id": `${SITE_URL}${seo.breadcrumbs.at(-1)[1]}` };
         }
@@ -92,8 +92,16 @@ for (const file of await listHtml(resolve("dist"))) {
         name: seo.title,
         description: seo.description,
         inLanguage: "en-US",
+        dateModified: SEO_UPDATED,
         isPartOf: { "@id": `${SITE_URL}/#website` },
         publisher: { "@id": `${SITE_URL}/#organization` },
+        ...(seo.type === "MedicalWebPage"
+          ? {
+              lastReviewed: SEO_UPDATED,
+              audience: { "@type": "MedicalAudience", audienceType: "Patient" },
+              specialty: "Oncologic",
+            }
+          : {}),
       };
 
   const websiteSchema = route === "/"
@@ -115,6 +123,12 @@ for (const file of await listHtml(resolve("dist"))) {
     .map((schema) => `<script type="application/ld+json" data-cellwear-seo>${JSON.stringify(schema).replaceAll("<", "\\u003c")}</script>`)
     .join("\n");
 
+  const firstImage = html.match(/<img[^>]+src="([^"]+)"[^>]*>/i);
+  const socialImage = firstImage?.[1]?.startsWith("/")
+    ? `${SITE_URL}${firstImage[1]}`
+    : firstImage?.[1] || `${SITE_URL}/images/nci/breast-cancer-cell-sem.webp`;
+  const socialImageAlt = firstImage?.[0].match(/alt="([^"]*)"/i)?.[1] || "Cellwear cancer microscopy";
+
   const metadata = `\n  <!-- CELLWEAR SEO START -->
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <meta name="author" content="Cellwear Education" />
@@ -123,9 +137,13 @@ for (const file of await listHtml(resolve("dist"))) {
   <meta property="og:title" content="${htmlEscape(seo.title)}" />
   <meta property="og:description" content="${htmlEscape(seo.description)}" />
   <meta property="og:url" content="${canonical}" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="${socialImage}" />
+  <meta property="og:image:alt" content="${htmlEscape(socialImageAlt)}" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${htmlEscape(seo.title)}" />
   <meta name="twitter:description" content="${htmlEscape(seo.description)}" />
+  <meta name="twitter:image" content="${socialImage}" />
+  <meta name="twitter:image:alt" content="${htmlEscape(socialImageAlt)}" />
   <link rel="alternate" type="application/rss+xml" title="Cellwear Journal" href="${SITE_URL}/feed.xml" />
   ${schemaScripts}
   <!-- CELLWEAR SEO END -->\n`;

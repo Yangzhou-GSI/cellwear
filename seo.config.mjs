@@ -23,6 +23,36 @@ export const SEO_BY_ROUTE = {
     type: "MedicalWebPage",
     breadcrumbs: [["Home", "/"], ["Cancer Education", "/education/"], ["Types of Cancer", "/education/types-of-cancer/"]],
   },
+  "/education/cancer-types/breast-cancer/": {
+    title: "Breast Cancer Cells Under the Microscope | Cellwear",
+    description: "Compare healthy breast tissue and breast cancer under the microscope, then learn how biopsy, cell type, ER, PR, and HER2 help classify the disease.",
+    type: "MedicalWebPage",
+    breadcrumbs: [["Home", "/"], ["Cancer Education", "/education/"], ["Types of Cancer", "/education/types-of-cancer/"], ["Breast Cancer", "/education/cancer-types/breast-cancer/"]],
+  },
+  "/education/cancer-types/lung-cancer/": {
+    title: "Lung Cancer Cells Under the Microscope | Cellwear",
+    description: "Explore lung cancer cells under the microscope and learn how pathology separates non-small cell and small cell lung cancer, subtypes, and biomarkers.",
+    type: "MedicalWebPage",
+    breadcrumbs: [["Home", "/"], ["Cancer Education", "/education/"], ["Types of Cancer", "/education/types-of-cancer/"], ["Lung Cancer", "/education/cancer-types/lung-cancer/"]],
+  },
+  "/education/cancer-types/colorectal-cancer/": {
+    title: "Colorectal Cancer Under the Microscope | Cellwear",
+    description: "Compare normal colorectal mucosa and colorectal cancer histology, and learn how polyps, biopsy, grade, stage, and biomarkers add meaning.",
+    type: "MedicalWebPage",
+    breadcrumbs: [["Home", "/"], ["Cancer Education", "/education/"], ["Types of Cancer", "/education/types-of-cancer/"], ["Colorectal Cancer", "/education/cancer-types/colorectal-cancer/"]],
+  },
+  "/education/cancer-types/pancreatic-cancer/": {
+    title: "Pancreatic Cancer Under the Microscope | Cellwear",
+    description: "See pancreatic cancer microscopy and learn the difference between common exocrine cancers, pancreatic neuroendocrine tumors, tissue, and cytology.",
+    type: "MedicalWebPage",
+    breadcrumbs: [["Home", "/"], ["Cancer Education", "/education/"], ["Types of Cancer", "/education/types-of-cancer/"], ["Pancreatic Cancer", "/education/cancer-types/pancreatic-cancer/"]],
+  },
+  "/education/cancer-types/melanoma/": {
+    title: "Melanoma Cells Under the Microscope | Cellwear",
+    description: "Explore melanoma cells through electron and fluorescence microscopy and learn how melanocytes, pathology, stage, and biomarkers define the disease.",
+    type: "MedicalWebPage",
+    breadcrumbs: [["Home", "/"], ["Cancer Education", "/education/"], ["Types of Cancer", "/education/types-of-cancer/"], ["Melanoma", "/education/cancer-types/melanoma/"]],
+  },
   "/education/genetics-and-biomarkers/": {
     title: "Cancer Genetics & Biomarker Testing Guide | Cellwear",
     description:
@@ -113,5 +143,11 @@ export const SEO_BY_ROUTE = {
       "Review creators, institutions, source links, licenses, public-domain status, and reuse requirements for scientific microscopy images used by Cellwear.",
     type: "WebPage",
     breadcrumbs: [["Home", "/"], ["Image Credits and Rights", "/image-credits/"]],
+  },
+  "/editorial-standards/": {
+    title: "Editorial Standards, Sources & Corrections | Cellwear",
+    description: "Learn how Cellwear researches cancer education, selects authoritative sources, labels microscopy images, handles corrections, and separates education from medical advice.",
+    type: "AboutPage",
+    breadcrumbs: [["Home", "/"], ["Editorial Standards", "/editorial-standards/"]],
   },
 };
