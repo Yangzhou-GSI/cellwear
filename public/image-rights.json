@@ -1,0 +1,32 @@
+{
+  "updated": "2026-09-02",
+  "images": [
+    {
+      "file": "/images/nci/breast-cancer-cell-sem.webp",
+      "title": "Breast Cancer Cell",
+      "creator": "Unknown photographer",
+      "source": "National Cancer Institute",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Breast_cancer_cell_(2).jpg",
+      "license": "Public domain — U.S. National Institutes of Health work",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/nci/cancer-cells-darkfield.webp",
+      "title": "Cancer Cells",
+      "creator": "Dr. Cecil Fox",
+      "source": "National Cancer Institute",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cancer_cells_(1).jpg",
+      "license": "Public domain — dedicated by the photographer and identified as an NIH work",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    },
+    {
+      "file": "/images/nci/colorectal-cancer-cells.webp",
+      "title": "Human Colorectal Cancer Cells",
+      "creator": "Yves Pommier and Rozenn Josse",
+      "source": "National Cancer Institute",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Purple_cells.jpg",
+      "license": "Public domain — U.S. National Institutes of Health work",
+      "changes": "Converted to WebP, metadata stripped, resized for web delivery"
+    }
+  ]
+}
